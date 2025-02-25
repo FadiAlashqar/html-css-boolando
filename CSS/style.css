@@ -29,7 +29,7 @@ ul li{
     max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 10px;
+    margin: 0 auto;
     gap: 10px;
 
 }
@@ -50,4 +50,10 @@ ul li{
 }
 .h-300{
     height: 300px;
+}
+.card{
+    width: 100%;
+}
+.card img{
+    width: 100%;
 }
