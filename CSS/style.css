@@ -10,6 +10,7 @@ header{
     padding: 10px 0;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 ul li{
     list-style-type: none;
@@ -68,4 +69,31 @@ ul li{
 }
 .card:hover .back{
     display: block;
+}
+.green-label{
+    background-color: green;
+    padding: 3px;
+}
+.white-font{
+    color: white;
+}
+.red-label{
+    background-color: red;
+    padding: 3px;
+}
+.label-container{
+    position: absolute;
+}
+.position-relative{
+    position: relative;
+}
+.left-bottom{
+    left: 0;
+    bottom: 14px;
+}
+.bottom{
+    bottom: -144px;
+}
+.bottom-2{
+    bottom: 310px;
 }
