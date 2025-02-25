@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: orange;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.boolean-logo{
+    height: 25px;
+    width: 65px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-around;
+}
+.container{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    gap: 10px;
+
+}
+.bg-aquamarine{
+    background-color: aquamarine;
+}
+.black-border{
+    border: 2px solid black;
+}
+.h-900{
+    height: 900px;
+}
+.colonna{
+    width: 30%;
+}
+.bg-silver{
+    background-color: silver;
+}
+.h-300{
+    height: 300px;
+}
