@@ -15,10 +15,10 @@ header{
 ul li{
     list-style-type: none;
     display: inline-block;
+    font-weight: 700;
 }
 .boolean-logo{
-    height: 25px;
-    width: 65px;
+    width: 100px;
 }
 .d-flex{
     display: flex;
@@ -91,9 +91,9 @@ ul li{
     left: 0;
     bottom: 14px;
 }
-.bottom{
-    bottom: -144px;
+.inline-block{
+    display: inline-block;
 }
-.bottom-2{
-    bottom: 310px;
+main{
+    padding: 40px 0;
 }
